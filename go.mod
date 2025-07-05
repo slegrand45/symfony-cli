@@ -2,6 +2,11 @@ module github.com/symfony-cli/symfony-cli
 
 go 1.24.0
 
+replace github.com/symfony-cli/cert => ./github.com/symfony-cli/cert
+replace github.com/symfony-cli/console => ./github.com/symfony-cli/console
+replace github.com/symfony-cli/phpstore => ./github.com/symfony-cli/phpstore
+replace github.com/symfony-cli/terminal => ./github.com/symfony-cli/terminal
+
 require (
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/blackfireio/osinfo v1.0.5
